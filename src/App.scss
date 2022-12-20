@@ -1,0 +1,35 @@
+@import "~antd/dist/antd.css";
+@import "./theme/variables.module.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap");
+
+.text-left{
+    text-align: left !important;;
+}
+
+.text-right{
+    text-align: right !important;;
+}
+
+.text-center{
+    text-align: center !important;;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+	background-color: $color-lightsubgreen; // Choose your own color here
+}
+
+.cu-text-small {
+	font-size: small;
+}
+
+.cu-bg-green {
+	background-color: $color-green !important;
+	color: $color-white !important;
+}
+
+.cu-bg-lightgreen {
+	background-color: $color-lightgreen !important;
+	color: $color-white !important;
+}
